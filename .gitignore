@@ -1,0 +1,7 @@
+# Project exclude paths
+/jdbcex/.gradle/
+/jdbcex/build/
+/jdbcex/build/classes/java/main/
+/w1/.gradle/
+/w1/build/
+/w1/build/classes/java/main/
