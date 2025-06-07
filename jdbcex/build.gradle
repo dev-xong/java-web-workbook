@@ -38,6 +38,8 @@ dependencies {
     implementation group : 'com.zaxxer', name: 'HikariCP', version: '5.0.0'
 
     implementation 'org.slf4j:slf4j-simple:1.7.36'
+
+    implementation group : 'org.modelmapper', name: 'modelmapper', version: '3.0.0'
 }
 
 test {
