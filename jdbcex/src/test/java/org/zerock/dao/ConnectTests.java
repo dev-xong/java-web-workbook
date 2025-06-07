@@ -26,7 +26,7 @@ public class ConnectTests {
     }
 
     @Test
-    public void testHicariCP() throws Exception {
+    public void testHikariCP() throws Exception {
 
         HikariConfig config = new HikariConfig();
         config.setDriverClassName("org.mariadb.jdbc.Driver");
