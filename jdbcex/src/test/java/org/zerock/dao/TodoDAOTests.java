@@ -1,5 +1,6 @@
 package org.zerock.dao;
 
+import jdk.vm.ci.meta.Local;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.zerock.jdbcex.dao.TodoDAO;
@@ -49,5 +50,17 @@ public class TodoDAOTests {
         TodoVO todoVO = todoDAO.selectOne(tno);
 
         System.out.println(todoVO);
+    }
+
+    @Test
+    public void testUpdateOne() throws Exception {
+        TodoVO todoVO = TodoVO.builder()
+                .tno(1L)
+                .title("Sampel Title...")
+                .dueDate(LocalDate.of(2025,12,31))
+                .finished(true)
+                .build();
+
+        todoDAO.update(todoVO);
     }
 }
