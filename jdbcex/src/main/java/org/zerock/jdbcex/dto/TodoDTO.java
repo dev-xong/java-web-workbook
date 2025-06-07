@@ -2,7 +2,7 @@ package org.zerock.jdbcex.dto;
 
 import lombok.*;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 @Builder
 @Data
@@ -14,7 +14,7 @@ public class TodoDTO {
 
     private String title;
 
-    private LocalDateTime dueDate;
+    private LocalDate dueDate;
 
     private boolean finished;
 }
