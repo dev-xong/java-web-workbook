@@ -40,4 +40,14 @@ public class TodoDAOTests {
 
         list.forEach(System.out::println);
     }
+
+    @Test
+    public void testSelectOne() throws Exception {
+
+        Long tno = 1L;
+
+        TodoVO todoVO = todoDAO.selectOne(tno);
+
+        System.out.println(todoVO);
+    }
 }
