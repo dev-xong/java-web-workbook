@@ -4,7 +4,7 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.ToString;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 @Getter
 @Builder
@@ -13,7 +13,7 @@ public class TodoVO {
 
     private Long tno;
     private String title;
-    private LocalDateTime dueDate;
+    private LocalDate dueDate;
     private boolean finished;
 
 }
