@@ -7,6 +7,9 @@ import org.zerock.jdbcex.domain.TodoVO;
 import org.zerock.jdbcex.dto.TodoDTO;
 import org.zerock.jdbcex.util.MapperUtil;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
 @Log4j2
 public enum TodoService {
 
@@ -26,6 +29,20 @@ public enum TodoService {
 
         System.out.println("todoVO : " + vo);
 
-        dao.insert(vo);
+        dao.insert(vo); //int 반환
+    }
+    public List<TodoDTO> listAll()throws Exception {
+
+
+        List<TodoVO> voList = dao.selectAll();
+
+        log.info("voList....................");
+        log.info(voList);
+
+        List<TodoDTO> dtoList = voList.stream()
+                .map(vo -> modelMapper.map(vo, TodoDTO.class))
+                .collect(Collectors.toList());
+
+        return dtoList;
     }
 }
