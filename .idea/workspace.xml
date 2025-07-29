@@ -9,11 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57f47e98-e2f9-4cc0-bd68-1726d71e353f" name="Changes" comment="[PART 2.3] Log4j2 Test">
-      <change afterPath="$PROJECT_DIR$/jdbcex/src/main/java/org/zerock/jdbcex/controller/TodoListController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbcex/src/main/webapp/WEB-INF/todo/list.jsp" afterDir="false" />
+    <list default="true" id="57f47e98-e2f9-4cc0-bd68-1726d71e353f" name="Changes" comment="[PART 2.3] 목록 조회">
+      <change afterPath="$PROJECT_DIR$/jdbcex/src/main/java/org/zerock/jdbcex/controller/TodoRegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/jdbcex/src/main/webapp/WEB-INF/todo/register.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/jdbcex/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/jdbcex/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/jdbcex/src/main/java/org/zerock/jdbcex/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/jdbcex/src/main/java/org/zerock/jdbcex/service/TodoService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -515,7 +514,7 @@
       <workItem from="1753709499646" duration="572000" />
       <workItem from="1753710075804" duration="186000" />
       <workItem from="1753710275602" duration="2644000" />
-      <workItem from="1753792298719" duration="2656000" />
+      <workItem from="1753792298719" duration="3667000" />
     </task>
     <task id="LOCAL-00001" summary="[PART 2.3] Log4j2">
       <option name="closed" value="true" />
@@ -541,7 +540,15 @@
       <option name="project" value="LOCAL" />
       <updated>1753793053315</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[PART 2.3] 목록 조회">
+      <option name="closed" value="true" />
+      <created>1753795107431</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1753795107431</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -578,7 +585,8 @@
     <MESSAGE value="[PART 2.3] Log4j2" />
     <MESSAGE value="w2" />
     <MESSAGE value="[PART 2.3] Log4j2 Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PART 2.3] Log4j2 Test" />
+    <MESSAGE value="[PART 2.3] 목록 조회" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PART 2.3] 목록 조회" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

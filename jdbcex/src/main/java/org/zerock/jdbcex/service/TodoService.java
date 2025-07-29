@@ -27,12 +27,11 @@ public enum TodoService {
 
         TodoVO vo = modelMapper.map(dto, TodoVO.class);
 
-        System.out.println("todoVO : " + vo);
-
+        log.info(vo);
         dao.insert(vo); //int 반환
     }
-    public List<TodoDTO> listAll()throws Exception {
 
+    public List<TodoDTO> listAll()throws Exception {
 
         List<TodoVO> voList = dao.selectAll();
 
