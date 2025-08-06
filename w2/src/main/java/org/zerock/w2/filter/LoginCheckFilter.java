@@ -24,9 +24,13 @@ public class LoginCheckFilter implements Filter {
 
         HttpSession session = req.getSession();
 
+        String contextPath = req.getContextPath();
+
         if(session.getAttribute("loginInfo") == null){
 
-            resp.sendRedirect("/login");
+            log.info("loginInfo 가 null");
+
+            resp.sendRedirect(contextPath + "/login");
 
             return;
         }

@@ -12,5 +12,9 @@
             <li>${dto}</li>
         </c:forEach>
     </ul>
+
+    <form action="${pageContext.request.contextPath}/logout" method="post">
+        <button>LOGOUT</button>
+    </form>
 </body>
 </html>
