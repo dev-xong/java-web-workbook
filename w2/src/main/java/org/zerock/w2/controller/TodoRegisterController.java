@@ -54,6 +54,9 @@ public class TodoRegisterController  extends HttpServlet {
                 .dueDate(LocalDate.parse(req.getParameter("dueDate"), DATEFORMATTER))
                 .build();
 
+         String contextPath = req.getContextPath();
+
+        System.out.println(contextPath);
         log.info("/todo/register POST..............");
         log.info(todoDTO);
         try {
@@ -61,7 +64,7 @@ public class TodoRegisterController  extends HttpServlet {
         }catch(Exception e) {
             e.printStackTrace();
         }
-        resp.sendRedirect("/todo/list");
+        resp.sendRedirect(contextPath + "/todo/list");
 
     }
 }

@@ -5,7 +5,7 @@
     <title>Title</title>
 </head>
 
-<form action="/todo/register" method="post">
+<form action="${pageContext.request.contextPath}/todo/register" method="post">
     <div>
         <input type="text" name="title" placeholder="INSERT TITLE">
     </div>

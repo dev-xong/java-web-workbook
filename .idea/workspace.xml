@@ -9,9 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57f47e98-e2f9-4cc0-bd68-1726d71e353f" name="Changes" comment="[PART 3.1] Login로직 sesstion 확인">
-      <change afterPath="$PROJECT_DIR$/w2/src/main/java/org/zerock/w2/filter/LoginCheckFilter.java" afterDir="false" />
+    <list default="true" id="57f47e98-e2f9-4cc0-bd68-1726d71e353f" name="Changes" comment="[PART 3.1] Login Check 구현">
+      <change afterPath="$PROJECT_DIR$/w2/src/main/java/org/zerock/w2/filter/UTF8Filter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w2/src/main/java/org/zerock/w2/controller/TodoRegisterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/w2/src/main/java/org/zerock/w2/controller/TodoRegisterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w2/src/main/webapp/WEB-INF/todo/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/w2/src/main/webapp/WEB-INF/todo/register.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,40 +88,40 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Gradle.Build jdbcex.executor": "Run",
-    "Gradle.Build w1.executor": "Run",
-    "Gradle.Build w2.executor": "Run",
-    "Gradle.TodoServiceTests.executor": "Run",
-    "Gradle.TodoServiceTests.testRegister.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "Tomcat Server.Tomcat 9.0.73.executor": "Run",
-    "Tomcat Server.jdbcex.executor": "Run",
-    "Tomcat Server.w1.executor": "Run",
-    "Tomcat Server.w2.executor": "Run",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/yunaxong/java-web-workbook/w2/src/main/resources",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.22639225",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Gradle.Build jdbcex.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build w1.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.Build w2.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TodoServiceTests.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.TodoServiceTests.testRegister.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;Tomcat Server.Tomcat 9.0.73.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.jdbcex.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.w1.executor&quot;: &quot;Run&quot;,
+    &quot;Tomcat Server.w2.executor&quot;: &quot;Run&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/yunaxong/java-web-workbook/w2/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.22639225&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory",
-      "repository"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;,
+      &quot;repository&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/w2/src/main/resources" />
@@ -518,7 +520,8 @@
       <workItem from="1753710075804" duration="186000" />
       <workItem from="1753710275602" duration="2644000" />
       <workItem from="1753792298719" duration="6833000" />
-      <workItem from="1754132908742" duration="7723000" />
+      <workItem from="1754132908742" duration="8190000" />
+      <workItem from="1754483526589" duration="747000" />
     </task>
     <task id="LOCAL-00001" summary="[PART 2.3] Log4j2">
       <option name="closed" value="true" />
@@ -584,7 +587,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754314967553</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[PART 3.1] Login Check 구현">
+      <option name="closed" value="true" />
+      <created>1754317695800</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1754317695800</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -626,7 +637,8 @@
     <MESSAGE value="[PART 3.1] W2" />
     <MESSAGE value="[PART 3.1] sesstion 확인" />
     <MESSAGE value="[PART 3.1] Login로직 sesstion 확인" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PART 3.1] Login로직 sesstion 확인" />
+    <MESSAGE value="[PART 3.1] Login Check 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PART 3.1] Login Check 구현" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
