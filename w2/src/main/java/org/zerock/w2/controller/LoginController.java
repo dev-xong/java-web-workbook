@@ -2,7 +2,10 @@ package org.zerock.w2.controller;
 
 
 
+import jdk.nashorn.internal.runtime.ECMAException;
 import lombok.extern.java.Log;
+import org.zerock.w2.dto.MemberDTO;
+import org.zerock.w2.service.MemberService;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -33,15 +36,23 @@ public class LoginController  extends HttpServlet {
 
         String mid = req.getParameter("mid");
         String mpw = req.getParameter("mpw");
-
-        String str = mid+mpw;
         String contextPath = req.getContextPath();
 
-        HttpSession session = req.getSession();
+        try{
+            MemberDTO memberDTO = MemberService.INSTANCE.login(mid, mpw);
+            HttpSession session = req.getSession();
+            session.setAttribute("loginInfo", memberDTO);
+            resp.sendRedirect(contextPath + "/todo/list");
+        }catch (Exception e){
+            resp.sendRedirect(contextPath + "/login?result=error");
+        }
 
-        session.setAttribute("loginInfo", str);
 
-        resp.sendRedirect(contextPath + "/todo/list");
+
+
+
+
+
 
     }
 }

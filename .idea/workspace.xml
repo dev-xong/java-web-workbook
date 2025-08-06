@@ -9,11 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57f47e98-e2f9-4cc0-bd68-1726d71e353f" name="Changes" comment="[PART 3.1] UTF8 Filter 구현">
-      <change afterPath="$PROJECT_DIR$/w2/src/main/java/org/zerock/w2/controller/LogoutController.java" afterDir="false" />
+    <list default="true" id="57f47e98-e2f9-4cc0-bd68-1726d71e353f" name="Changes" comment="[PART 3.1] Logout 구현">
+      <change afterPath="$PROJECT_DIR$/w2/src/main/java/org/zerock/w2/dao/MemberDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w2/src/main/java/org/zerock/w2/domain/MemberVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w2/src/main/java/org/zerock/w2/dto/MemberDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/w2/src/main/java/org/zerock/w2/service/MemberService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/w2/src/main/java/org/zerock/w2/filter/LoginCheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/w2/src/main/java/org/zerock/w2/filter/LoginCheckFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/w2/src/main/webapp/WEB-INF/todo/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/w2/src/main/webapp/WEB-INF/todo/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w2/src/main/java/org/zerock/w2/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/w2/src/main/java/org/zerock/w2/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/w2/src/main/webapp/WEB-INF/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/w2/src/main/webapp/WEB-INF/login.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +55,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Jsp File" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -521,7 +525,7 @@
       <workItem from="1753710275602" duration="2644000" />
       <workItem from="1753792298719" duration="6833000" />
       <workItem from="1754132908742" duration="8190000" />
-      <workItem from="1754483526589" duration="2004000" />
+      <workItem from="1754483526589" duration="5197000" />
     </task>
     <task id="LOCAL-00001" summary="[PART 2.3] Log4j2">
       <option name="closed" value="true" />
@@ -603,7 +607,15 @@
       <option name="project" value="LOCAL" />
       <updated>1754484356666</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="[PART 3.1] Logout 구현">
+      <option name="closed" value="true" />
+      <created>1754485554828</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1754485554828</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -647,14 +659,15 @@
     <MESSAGE value="[PART 3.1] Login로직 sesstion 확인" />
     <MESSAGE value="[PART 3.1] Login Check 구현" />
     <MESSAGE value="[PART 3.1] UTF8 Filter 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PART 3.1] UTF8 Filter 구현" />
+    <MESSAGE value="[PART 3.1] Logout 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PART 3.1] Logout 구현" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/w2/src/main/java/org/zerock/w2/controller/LoginController.java</url>
-          <line>28</line>
+          <line>31</line>
           <properties class="org.zerock.w2.controller.LoginController" method="doPost">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
@@ -663,7 +676,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/w2/src/main/java/org/zerock/w2/controller/LoginController.java</url>
-          <line>19</line>
+          <line>22</line>
           <properties class="org.zerock.w2.controller.LoginController" method="doGet">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
