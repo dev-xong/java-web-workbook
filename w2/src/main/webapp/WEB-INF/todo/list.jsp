@@ -13,6 +13,9 @@
         </c:forEach>
     </ul>
 
+    <h2>${loginInfo}</h2>
+    <h2>${loginInfo.mname}</h2>
+
     <form action="${pageContext.request.contextPath}/logout" method="post">
         <button>LOGOUT</button>
     </form>

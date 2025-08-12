@@ -9,6 +9,7 @@
     <c:if test="${param.result == 'error'}">
         <h1>로그인 에러</h1>
     </c:if>
+
     <form action="${pageContext.request.contextPath}/login" method="post">
         <input type="text" name="mid">
         <input type="text" name="mpw">

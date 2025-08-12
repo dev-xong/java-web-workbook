@@ -7,6 +7,7 @@ import org.zerock.w2.domain.TodoVO;
 import org.zerock.w2.dto.TodoDTO;
 import org.zerock.w2.util.MapperUtil;
 
+import java.time.LocalDate;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -43,5 +44,16 @@ public enum TodoService {
                 .collect(Collectors.toList());
 
         return dtoList;
+    }
+
+    public TodoDTO get(Long tno){
+
+        TodoDTO dto = new TodoDTO();
+        dto.setTno(tno);
+        dto.setTitle("Sample Todo");
+        dto.setDueDate(LocalDate.now());
+        dto.setFinished(true);
+
+        return dto;
     }
 }
