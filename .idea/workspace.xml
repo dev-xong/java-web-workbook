@@ -9,9 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57f47e98-e2f9-4cc0-bd68-1726d71e353f" name="Changes" comment="[PART4]Springex">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="57f47e98-e2f9-4cc0-bd68-1726d71e353f" name="Changes" comment="재설정">
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +21,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/jdbcex">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/springex">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/w1">
@@ -96,48 +99,50 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Build jdbcex.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build w1.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build w2.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ConnectTests.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ConnectTests.testConnect.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TodoServiceTests.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TodoServiceTests.testRegister.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.w2 빌드.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.소스 다운로드.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Tomcat Server.Tomcat 9.0.73.executor&quot;: &quot;Run&quot;,
-    &quot;Tomcat Server.jdbcex.executor&quot;: &quot;Run&quot;,
-    &quot;Tomcat Server.w1.executor&quot;: &quot;Run&quot;,
-    &quot;Tomcat Server.w2.executor&quot;: &quot;Run&quot;,
-    &quot;Tomcat 서버.w2.executor&quot;: &quot;Run&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.4353599&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.build&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build jdbcex.executor": "Run",
+    "Gradle.Build springex.executor": "Run",
+    "Gradle.Build w1.executor": "Run",
+    "Gradle.Build w2.executor": "Run",
+    "Gradle.ConnectTests.executor": "Run",
+    "Gradle.ConnectTests.testConnect.executor": "Run",
+    "Gradle.TodoServiceTests.executor": "Run",
+    "Gradle.TodoServiceTests.testRegister.executor": "Run",
+    "Gradle.w2 빌드.executor": "Run",
+    "Gradle.소스 다운로드.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Tomcat Server.Tomcat 9.0.73.executor": "Run",
+    "Tomcat Server.jdbcex.executor": "Run",
+    "Tomcat Server.springex.executor": "Run",
+    "Tomcat Server.w1.executor": "Run",
+    "Tomcat Server.w2.executor": "Run",
+    "Tomcat 서버.w2.executor": "Run",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4353599",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;repository&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "repository"
     ],
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mariadb&quot;
+    "DatabaseDriversLRU": [
+      "mariadb"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/w2/src/main/resources" />
@@ -148,7 +153,7 @@
       <recent name="$PROJECT_DIR$/w1/src/main/webapp/WEB-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.ConnectTests.testConnect">
+  <component name="RunManager" selected="Tomcat Server.springex">
     <configuration name="ConnectTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -343,6 +348,94 @@
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
           <artifact name="Gradle : org.zerock : jdbcex-1.0-SNAPSHOT.war (exploded)" />
+        </option>
+      </method>
+    </configuration>
+    <configuration name="springex" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.73" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <deployment>
+        <artifact name="Gradle : org.zerock : springex-1.0-SNAPSHOT.war (exploded)">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="9b4a1dc2-c318-47b5-bda5-00e59cd93228" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="AppServerDebuggerRunner">
+        <option name="DEBUG_PORT" value="49382" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="AppServerDebuggerRunner">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : org.zerock : springex-1.0-SNAPSHOT.war (exploded)" />
         </option>
       </method>
     </configuration>
@@ -549,6 +642,7 @@
       <item itemvalue="Gradle.ConnectTests" />
       <item itemvalue="Gradle.TodoServiceTests" />
       <item itemvalue="Gradle.TodoServiceTests.testRegister" />
+      <item itemvalue="Tomcat Server.springex" />
       <item itemvalue="Tomcat Server.jdbcex" />
       <item itemvalue="Tomcat Server.w1" />
       <item itemvalue="Tomcat Server.w2" />
@@ -617,7 +711,13 @@
       <workItem from="1755527750321" duration="265000" />
       <workItem from="1755528019346" duration="129000" />
       <workItem from="1755528156391" duration="695000" />
-      <workItem from="1755528861629" duration="20000" />
+      <workItem from="1755528861629" duration="322000" />
+      <workItem from="1755529191532" duration="157000" />
+      <workItem from="1755529351340" duration="65000" />
+      <workItem from="1755529423285" duration="161000" />
+      <workItem from="1755529625732" duration="26000" />
+      <workItem from="1755529757880" duration="678000" />
+      <workItem from="1755530475570" duration="763000" />
     </task>
     <task id="LOCAL-00001" summary="[PART 2.3] Log4j2">
       <option name="closed" value="true" />
@@ -763,7 +863,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755528580513</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="재설정">
+      <option name="closed" value="true" />
+      <created>1755529120869</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1755529120869</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -814,7 +922,8 @@
     <MESSAGE value="[PART 3.3] ServletContextListener&#10;-- setAttribute" />
     <MESSAGE value="[PART 3.3] LoginListener&#10;-- HttpSessionAttributeListener" />
     <MESSAGE value="[PART4]Springex" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PART4]Springex" />
+    <MESSAGE value="재설정" />
+    <option name="LAST_COMMIT_MESSAGE" value="재설정" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
