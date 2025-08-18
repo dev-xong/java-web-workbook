@@ -12,10 +12,10 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/springex/springex" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/springex" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/springex/springex" />
+            <option value="$PROJECT_DIR$/springex" />
           </set>
         </option>
       </GradleProjectSettings>

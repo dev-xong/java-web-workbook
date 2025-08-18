@@ -9,10 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57f47e98-e2f9-4cc0-bd68-1726d71e353f" name="Changes" comment="[PART 3.3] LoginListener&#10;-- HttpSessionAttributeListener">
-      <change afterPath="$PROJECT_DIR$/springex/springex/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springex/springex/src/main/webapp/WEB-INF/root-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="57f47e98-e2f9-4cc0-bd68-1726d71e353f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/springex/src/main/resources/log4j2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -24,6 +22,9 @@
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$/jdbcex">
+      <ProjectState />
+    </projectState>
+    <projectState path="$PROJECT_DIR$/springex">
       <ProjectState />
     </projectState>
     <projectState path="$PROJECT_DIR$/springex/springex">
@@ -79,12 +80,12 @@
     &quot;assignee&quot;: &quot;dev-xong&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/dev-xong/java-web-workbook.git",
-    "accountId": "4d74d606-13af-4562-91a9-18fa31c1f28e"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dev-xong/java-web-workbook.git&quot;,
+    &quot;accountId&quot;: &quot;4d74d606-13af-4562-91a9-18fa31c1f28e&quot;
   }
-}]]></component>
+}</component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -123,17 +124,18 @@
     "Tomcat Server.w1.executor": "Run",
     "Tomcat Server.w2.executor": "Run",
     "Tomcat 서버.w2.executor": "Run",
+    "deletionFromPopupRequiresConfirmation": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/yunaxong/java-web-workbook/springex/springex/src/main/resources",
+    "last_opened_file_path": "/Users/yunaxong/java-web-workbook/springex/src/main/resources",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "SDK",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.22639225",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "project.structure.side.proportion": "0.4353599",
+    "settings.editor.selected.configurable": "configurable.group.build",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -148,6 +150,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/springex/src/main/resources" />
       <recent name="$PROJECT_DIR$/springex/springex/src/main/resources" />
       <recent name="$PROJECT_DIR$/w2/src/main/resources" />
       <recent name="$PROJECT_DIR$/w2/src/main/webapp/WEB-INF" />
@@ -356,7 +359,6 @@
       </method>
     </configuration>
     <configuration name="springex" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.73" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="COMMON_VM_ARGUMENTS" value="-Xmx2048m -Dfile.encoding=UTF-8 -Dconsole.encoding=UTF-8" />
       <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
       <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
@@ -367,7 +369,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="7ab032b9-ab72-4618-9749-7c975a55d508" />
+        <option name="BASE_DIRECTORY_NAME" value="f030cd8e-4f1e-4208-8ef1-1779319d5f93" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -375,7 +377,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="AppServerDebuggerRunner">
-        <option name="DEBUG_PORT" value="55032" />
+        <option name="DEBUG_PORT" value="49820" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="AppServerDebuggerRunner">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -709,6 +711,13 @@
       <workItem from="1754973463620" duration="2633000" />
       <workItem from="1754978755232" duration="13308000" />
       <workItem from="1755520238075" duration="4044000" />
+      <workItem from="1755527119795" duration="384000" />
+      <workItem from="1755527507140" duration="58000" />
+      <workItem from="1755527568426" duration="114000" />
+      <workItem from="1755527686252" duration="57000" />
+      <workItem from="1755527750321" duration="265000" />
+      <workItem from="1755528019346" duration="129000" />
+      <workItem from="1755528156391" duration="227000" />
     </task>
     <task id="LOCAL-00001" summary="[PART 2.3] Log4j2">
       <option name="closed" value="true" />
