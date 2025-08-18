@@ -17,6 +17,9 @@ public class W2AppListener implements ServletContextListener {
         log.info("----------------init---------------");
         log.info("----------------init---------------");
 
+        ServletContext servletContext = sce.getServletContext();
+        servletContext.setAttribute("appName", "W2");
+
     }
 
     @Override

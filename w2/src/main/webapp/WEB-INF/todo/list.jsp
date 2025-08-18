@@ -13,6 +13,7 @@
         </c:forEach>
     </ul>
 
+    <h2>${appName}</h2>
     <h2>${loginInfo}</h2>
     <h2>${loginInfo.mname}</h2>
 

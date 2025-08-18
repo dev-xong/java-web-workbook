@@ -1,5 +1,6 @@
 package org.zerock.w2.controller;
 
+import javax.servlet.ServletContext;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.Cookie;
@@ -21,6 +22,9 @@ public class TodoReadController extends HttpServlet {
             ServletException, IOException{
 
         System.out.println("투두 읽기");
+
+        ServletContext servletContext = req.getServletContext();
+        log.info("appName :  " + servletContext.getAttribute("appName") );
 
 
         try {
