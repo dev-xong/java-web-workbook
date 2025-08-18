@@ -9,11 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57f47e98-e2f9-4cc0-bd68-1726d71e353f" name="Changes" comment="[PART 3.3] ServletContextListener&#10;-- contextInitialized&#10;-- contextDestroyed">
+    <list default="true" id="57f47e98-e2f9-4cc0-bd68-1726d71e353f" name="Changes" comment="[PART 3.3] ServletContextListener&#10;-- setAttribute">
+      <change afterPath="$PROJECT_DIR$/w2/src/main/java/org/zerock/w2/listener/LoginListener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/w2/src/main/java/org/zerock/w2/controller/TodoReadController.java" beforeDir="false" afterPath="$PROJECT_DIR$/w2/src/main/java/org/zerock/w2/controller/TodoReadController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/w2/src/main/java/org/zerock/w2/listener/W2AppListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/w2/src/main/java/org/zerock/w2/listener/W2AppListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/w2/src/main/webapp/WEB-INF/todo/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/w2/src/main/webapp/WEB-INF/todo/list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -609,7 +607,7 @@
       <workItem from="1754483526589" duration="5197000" />
       <workItem from="1754973463620" duration="2633000" />
       <workItem from="1754978755232" duration="13308000" />
-      <workItem from="1755520238075" duration="1753000" />
+      <workItem from="1755520238075" duration="2179000" />
     </task>
     <task id="LOCAL-00001" summary="[PART 2.3] Log4j2">
       <option name="closed" value="true" />
@@ -723,7 +721,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755521523114</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="[PART 3.3] ServletContextListener&#10;-- setAttribute">
+      <option name="closed" value="true" />
+      <created>1755522035041</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1755522035041</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -771,7 +777,8 @@
     <MESSAGE value="[PART 3.1] TodoReadController 구현중" />
     <MESSAGE value="[PART 3.1] TodoReadController" />
     <MESSAGE value="[PART 3.3] ServletContextListener&#10;-- contextInitialized&#10;-- contextDestroyed" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PART 3.3] ServletContextListener&#10;-- contextInitialized&#10;-- contextDestroyed" />
+    <MESSAGE value="[PART 3.3] ServletContextListener&#10;-- setAttribute" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PART 3.3] ServletContextListener&#10;-- setAttribute" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
