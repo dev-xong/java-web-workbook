@@ -3,7 +3,7 @@
 <Configuration status="INFO"> <!-- 설정 파일 로딩 중 출력되는 로그 레벨 -->
 
     <Appenders>
-        <Console name="Console" target="SYSTEM_OUT"> <!-- 콘솔 출력 설정 -->
+        <Console name="console" target="SYSTEM_OUT"> <!-- 콘솔 출력 설정 -->
             <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
         </Console>
     </Appenders>
@@ -17,7 +17,7 @@
             <appender-ref ref="console"/>
         </logger>
 
-        <root revel="INFO" additivity="false">
+        <root level="INFO" additivity="false">
             <AppenderRef ref="console"/>
         </root>
     </Loggers>
