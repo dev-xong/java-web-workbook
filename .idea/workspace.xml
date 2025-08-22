@@ -9,10 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57f47e98-e2f9-4cc0-bd68-1726d71e353f" name="Changes" comment="[PART4-3] RedirectAttributes와 리다이렉션">
-      <change afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/controller/exception/CommonExceptionAdvice.java" afterDir="false" />
+    <list default="true" id="57f47e98-e2f9-4cc0-bd68-1726d71e353f" name="Changes" comment="[PART4-3] 스프링 MVC 예외 처리 @ExceptionHandler">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/controller/SampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/controller/SampleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/controller/exception/CommonExceptionAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/controller/exception/CommonExceptionAdvice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -749,7 +748,7 @@
       <workItem from="1755530475570" duration="924000" />
       <workItem from="1755601628613" duration="1013000" />
       <workItem from="1755610445203" duration="4243000" />
-      <workItem from="1755866045644" duration="2347000" />
+      <workItem from="1755866045644" duration="3934000" />
     </task>
     <task id="LOCAL-00001" summary="[PART 2.3] Log4j2">
       <option name="closed" value="true" />
@@ -927,7 +926,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755867071281</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="[PART4-3] 스프링 MVC 예외 처리 @ExceptionHandler">
+      <option name="closed" value="true" />
+      <created>1755868797858</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1755868797858</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -982,7 +989,8 @@
     <MESSAGE value="[PART4]" />
     <MESSAGE value="[PART4] 진행중" />
     <MESSAGE value="[PART4-3] RedirectAttributes와 리다이렉션" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PART4-3] RedirectAttributes와 리다이렉션" />
+    <MESSAGE value="[PART4-3] 스프링 MVC 예외 처리 @ExceptionHandler" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PART4-3] 스프링 MVC 예외 처리 @ExceptionHandler" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
