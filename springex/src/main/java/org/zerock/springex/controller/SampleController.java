@@ -3,17 +3,25 @@ package org.zerock.springex.controller;
 import com.sun.tools.jdeps.JdepsFilter;
 import lombok.Getter;
 import lombok.extern.log4j.Log4j2;
+import org.springframework.core.io.ResourceLoader;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import java.time.LocalDate;
 
 @Log4j2
 @Controller
 public class SampleController {
+
+    private final ResourceLoader resourceLoader;
+
+    public SampleController(ResourceLoader resourceLoader) {
+        this.resourceLoader = resourceLoader;
+    }
 
     @GetMapping("/hello")
     public void hello(){
@@ -48,5 +56,19 @@ public class SampleController {
 
         log.info("ex4................");
         model.addAttribute("message", "Hello World");
+    }
+
+    @GetMapping("/ex5")
+    public String ex5(RedirectAttributes redirectAttributes){
+
+        redirectAttributes.addAttribute("name", "ABC");
+        redirectAttributes.addFlashAttribute("result", "success");
+
+        return "redirect:/ex6";
+    }
+
+    @GetMapping("/ex6")
+    public void ex6(){
+
     }
 }
