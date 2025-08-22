@@ -9,8 +9,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57f47e98-e2f9-4cc0-bd68-1726d71e353f" name="Changes" comment="[PART4] 진행중">
-      <change afterPath="$PROJECT_DIR$/springex/src/main/webapp/WEB-INF/views/ex6.jsp" afterDir="false" />
+    <list default="true" id="57f47e98-e2f9-4cc0-bd68-1726d71e353f" name="Changes" comment="[PART4-3] RedirectAttributes와 리다이렉션">
+      <change afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/controller/exception/CommonExceptionAdvice.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/controller/SampleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/controller/SampleController.java" afterDir="false" />
     </list>
@@ -62,8 +62,8 @@
       <list>
         <option value="Enum" />
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -749,7 +749,7 @@
       <workItem from="1755530475570" duration="924000" />
       <workItem from="1755601628613" duration="1013000" />
       <workItem from="1755610445203" duration="4243000" />
-      <workItem from="1755866045644" duration="764000" />
+      <workItem from="1755866045644" duration="2347000" />
     </task>
     <task id="LOCAL-00001" summary="[PART 2.3] Log4j2">
       <option name="closed" value="true" />
@@ -919,7 +919,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755615019807</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="[PART4-3] RedirectAttributes와 리다이렉션">
+      <option name="closed" value="true" />
+      <created>1755867071281</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1755867071281</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -973,7 +981,8 @@
     <MESSAGE value="재설정" />
     <MESSAGE value="[PART4]" />
     <MESSAGE value="[PART4] 진행중" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PART4] 진행중" />
+    <MESSAGE value="[PART4-3] RedirectAttributes와 리다이렉션" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PART4-3] RedirectAttributes와 리다이렉션" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
