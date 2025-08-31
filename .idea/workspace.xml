@@ -10,10 +10,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57f47e98-e2f9-4cc0-bd68-1726d71e353f" name="Changes" comment="[PART4-3] 스프링 MVC 범용적인 예외처리">
-      <change afterPath="$PROJECT_DIR$/springex/src/main/webapp/WEB-INF/views/custom404.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/domain/TodoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/mapper/TodoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springex/src/main/resources/mappers/TodoMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springex/src/main/webapp/resources/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springex/src/test/java/org/zerock/springex/mapper/TodoMapperTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/controller/exception/CommonExceptionAdvice.java" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/controller/exception/CommonExceptionAdvice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springex/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springex/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/resources/log4j2.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +66,9 @@
       <list>
         <option value="Enum" />
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -100,52 +104,53 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Gradle.Build jdbcex.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build springex.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build w1.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build w2.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ConnectTests.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.ConnectTests.testConnect.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.SampleTests.testService.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TodoServiceTests.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.TodoServiceTests.testRegister.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.w2 빌드.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.소스 다운로드.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;Tomcat Server.Tomcat 9.0.73.executor&quot;: &quot;Run&quot;,
-    &quot;Tomcat Server.jdbcex.executor&quot;: &quot;Run&quot;,
-    &quot;Tomcat Server.springex.executor&quot;: &quot;Run&quot;,
-    &quot;Tomcat Server.w1.executor&quot;: &quot;Run&quot;,
-    &quot;Tomcat Server.w2.executor&quot;: &quot;Run&quot;,
-    &quot;Tomcat 서버.w2.executor&quot;: &quot;Run&quot;,
-    &quot;deletionFromPopupRequiresConfirmation&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/yunaxong/java-web-workbook/springex/src/main/resources&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.4353599&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Gradle.Build jdbcex.executor": "Run",
+    "Gradle.Build springex.executor": "Run",
+    "Gradle.Build w1.executor": "Run",
+    "Gradle.Build w2.executor": "Run",
+    "Gradle.ConnectTests.executor": "Run",
+    "Gradle.ConnectTests.testConnect.executor": "Run",
+    "Gradle.SampleTests.testService.executor": "Run",
+    "Gradle.TodoMapperTests.testGetTime.executor": "Run",
+    "Gradle.TodoServiceTests.executor": "Run",
+    "Gradle.TodoServiceTests.testRegister.executor": "Run",
+    "Gradle.w2 빌드.executor": "Run",
+    "Gradle.소스 다운로드.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "Tomcat Server.Tomcat 9.0.73.executor": "Run",
+    "Tomcat Server.jdbcex.executor": "Run",
+    "Tomcat Server.springex.executor": "Run",
+    "Tomcat Server.w1.executor": "Run",
+    "Tomcat Server.w2.executor": "Run",
+    "Tomcat 서버.w2.executor": "Run",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/yunaxong/java-web-workbook/springex/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.4353599",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;,
-      &quot;repository&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory",
+      "repository"
     ],
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mariadb&quot;
+    "DatabaseDriversLRU": [
+      "mariadb"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/springex/src/main/resources" />
@@ -157,7 +162,7 @@
       <recent name="$PROJECT_DIR$/w1/src/main/webapp/WEB-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.springex">
+  <component name="RunManager" selected="Gradle.TodoMapperTests.testGetTime">
     <configuration name="ConnectTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -230,10 +235,10 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TodoServiceTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TodoMapperTests.testGetTime" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/jdbcex" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/springex" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
@@ -243,7 +248,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.zerock.service.TodoServiceTests&quot;" />
+            <option value="&quot;org.zerock.springex.mapper.TodoMapperTests.testGetTime&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -666,10 +671,10 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.TodoMapperTests.testGetTime" />
       <item itemvalue="Gradle.SampleTests.testService" />
       <item itemvalue="Gradle.ConnectTests.testConnect" />
       <item itemvalue="Gradle.ConnectTests" />
-      <item itemvalue="Gradle.TodoServiceTests" />
       <item itemvalue="Gradle.TodoServiceTests.testRegister" />
       <item itemvalue="Tomcat Server.springex" />
       <item itemvalue="Tomcat Server.jdbcex" />
@@ -678,11 +683,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TodoMapperTests.testGetTime" />
         <item itemvalue="Gradle.SampleTests.testService" />
         <item itemvalue="Gradle.ConnectTests.testConnect" />
         <item itemvalue="Gradle.ConnectTests" />
         <item itemvalue="Gradle.TodoServiceTests.testRegister" />
-        <item itemvalue="Gradle.TodoServiceTests" />
       </list>
     </recent_temporary>
   </component>
@@ -1010,6 +1015,15 @@
           <url>file://$PROJECT_DIR$/w2/src/main/webapp/WEB-INF/login.jsp</url>
           <line>9</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/springex/src/test/java/org/zerock/springex/mapper/TodoMapperTests.java</url>
+          <line>18</line>
+          <properties class="org.zerock.springex.mapper.TodoMapperTests" method="testGetTime">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
