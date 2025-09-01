@@ -1,4 +1,4 @@
-package org.zerock.springex.mapper;
+package org.zerock.springex.service;
 
 import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.Test;
@@ -6,7 +6,6 @@ import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
-import org.zerock.springex.domain.TodoVO;
 import org.zerock.springex.dto.TodoDTO;
 
 import java.time.LocalDate;
@@ -14,26 +13,21 @@ import java.time.LocalDate;
 @Log4j2
 @ExtendWith(SpringExtension.class)
 @ContextConfiguration(locations="file:src/main/webapp/WEB-INF/root-context.xml")
-public class TodoMapperTests {
+public class TodoServiceTests {
 
-    @Autowired(required = false)
-    private TodoMapper todoMapper;
-
-    @Test
-    public void testGetTime(){
-        log.info(todoMapper.getTime());
-    }
+    @Autowired
+    private TodoService todoService;
 
     @Test
-    public void testInsert() {
+    public void testRegister(){
 
-        TodoVO todoVO = TodoVO.builder()
-                .title("스프링 테스트")
-                .dueDate(LocalDate.of(2025, 9, 01))
-                .writer("user00")
+        TodoDTO todoDTO = TodoDTO.builder()
+                .title("Test..........")
+                .dueDate(LocalDate.now())
+                .writer("user1")
                 .build();
 
-        todoMapper.insert(todoVO);
-    }
+        todoService.register(todoDTO);
 
+    }
 }
