@@ -10,13 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="57f47e98-e2f9-4cc0-bd68-1726d71e353f" name="Changes" comment="[PART4-3] 스프링 MVC 범용적인 예외처리">
-      <change afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/domain/TodoVO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/mapper/TodoMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springex/src/main/resources/mappers/TodoMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springex/src/main/webapp/resources/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springex/src/test/java/org/zerock/springex/mapper/TodoMapperTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springex/src/main/resources/log4j2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/resources/log4j2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/mapper/TodoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/mapper/TodoMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springex/src/main/resources/mappers/TodoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/resources/mappers/TodoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springex/src/test/java/org/zerock/springex/mapper/TodoMapperTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/test/java/org/zerock/springex/mapper/TodoMapperTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +38,9 @@
     <system id="GRADLE">
       <state>
         <task path="$PROJECT_DIR$/w2">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$/jdbcex">
           <activation />
         </task>
         <projects_view>
@@ -81,12 +81,12 @@
     &quot;assignee&quot;: &quot;dev-xong&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/dev-xong/java-web-workbook.git&quot;,
-    &quot;accountId&quot;: &quot;4d74d606-13af-4562-91a9-18fa31c1f28e&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/dev-xong/java-web-workbook.git",
+    "accountId": "01c7fad1-9288-4a08-b087-ffa421bf0c61"
   }
-}</component>
+}]]></component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -114,6 +114,7 @@
     "Gradle.ConnectTests.testConnect.executor": "Run",
     "Gradle.SampleTests.testService.executor": "Run",
     "Gradle.TodoMapperTests.testGetTime.executor": "Run",
+    "Gradle.TodoMapperTests.testInsert.executor": "Run",
     "Gradle.TodoServiceTests.executor": "Run",
     "Gradle.TodoServiceTests.testRegister.executor": "Run",
     "Gradle.w2 빌드.executor": "Run",
@@ -162,7 +163,7 @@
       <recent name="$PROJECT_DIR$/w1/src/main/webapp/WEB-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TodoMapperTests.testGetTime">
+  <component name="RunManager" selected="Gradle.TodoMapperTests.testInsert">
     <configuration name="ConnectTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -259,10 +260,10 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TodoServiceTests.testRegister" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TodoMapperTests.testInsert" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/jdbcex" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/springex" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="" />
         <option name="taskDescriptions">
@@ -272,7 +273,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.zerock.service.TodoServiceTests.testRegister&quot;" />
+            <option value="&quot;org.zerock.springex.mapper.TodoMapperTests.testInsert&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -671,11 +672,11 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.TodoMapperTests.testInsert" />
       <item itemvalue="Gradle.TodoMapperTests.testGetTime" />
       <item itemvalue="Gradle.SampleTests.testService" />
       <item itemvalue="Gradle.ConnectTests.testConnect" />
       <item itemvalue="Gradle.ConnectTests" />
-      <item itemvalue="Gradle.TodoServiceTests.testRegister" />
       <item itemvalue="Tomcat Server.springex" />
       <item itemvalue="Tomcat Server.jdbcex" />
       <item itemvalue="Tomcat Server.w1" />
@@ -683,19 +684,19 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TodoMapperTests.testInsert" />
         <item itemvalue="Gradle.TodoMapperTests.testGetTime" />
         <item itemvalue="Gradle.SampleTests.testService" />
         <item itemvalue="Gradle.ConnectTests.testConnect" />
         <item itemvalue="Gradle.ConnectTests" />
-        <item itemvalue="Gradle.TodoServiceTests.testRegister" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
-        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.27812.49" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.27812.49" />
       </set>
     </attachedChunks>
   </component>
@@ -1018,7 +1019,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/springex/src/test/java/org/zerock/springex/mapper/TodoMapperTests.java</url>
-          <line>18</line>
+          <line>21</line>
           <properties class="org.zerock.springex.mapper.TodoMapperTests" method="testGetTime">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
