@@ -9,14 +9,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57f47e98-e2f9-4cc0-bd68-1726d71e353f" name="Changes" comment="[PART4.4] Todo Insert Test">
-      <change afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/service/TodoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/service/TodoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springex/src/test/java/org/zerock/springex/service/TodoServiceTests.java" afterDir="false" />
+    <list default="true" id="57f47e98-e2f9-4cc0-bd68-1726d71e353f" name="Changes" comment="[PART 4.4] TodoService Test">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/dto/TodoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/dto/TodoDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springex/src/main/webapp/WEB-INF/root-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/webapp/WEB-INF/root-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springex/src/test/java/org/zerock/springex/mapper/TodoMapperTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/test/java/org/zerock/springex/mapper/TodoMapperTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/controller/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/controller/TodoController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springex/src/main/webapp/WEB-INF/views/todo/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/webapp/WEB-INF/views/todo/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springex/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,7 +163,7 @@
       <recent name="$PROJECT_DIR$/w1/src/main/webapp/WEB-INF" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.TodoServiceTests.testRegister">
+  <component name="RunManager" selected="Tomcat Server.springex">
     <configuration name="ConnectTests.testConnect" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -961,7 +958,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756700027346</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="[PART 4.4] TodoService Test">
+      <option name="closed" value="true" />
+      <created>1756715499191</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1756715499191</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1019,7 +1024,8 @@
     <MESSAGE value="[PART4-3] 스프링 MVC 예외 처리 @ExceptionHandler" />
     <MESSAGE value="[PART4-3] 스프링 MVC 범용적인 예외처리" />
     <MESSAGE value="[PART4.4] Todo Insert Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PART4.4] Todo Insert Test" />
+    <MESSAGE value="[PART 4.4] TodoService Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PART 4.4] TodoService Test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
