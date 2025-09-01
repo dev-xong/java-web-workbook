@@ -9,11 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57f47e98-e2f9-4cc0-bd68-1726d71e353f" name="Changes" comment="[PART 4.4] TodoService Test">
+    <list default="true" id="57f47e98-e2f9-4cc0-bd68-1726d71e353f" name="Changes" comment="[PART 4.4] Encoding 설정">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/controller/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/controller/TodoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springex/src/main/webapp/WEB-INF/views/todo/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/webapp/WEB-INF/views/todo/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springex/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/dto/TodoDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/dto/TodoDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -966,7 +965,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756715499191</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="[PART 4.4] PostMapping 설정">
+      <option name="closed" value="true" />
+      <created>1756716581884</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1756716581884</updated>
+    </task>
+    <task id="LOCAL-00028" summary="[PART 4.4] Encoding 설정">
+      <option name="closed" value="true" />
+      <created>1756716599545</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1756716599545</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1000,8 +1015,6 @@
       <path value="$PROJECT_DIR$/w1" />
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="[PART 2.3] Log4j2" />
-    <MESSAGE value="w2" />
     <MESSAGE value="[PART 2.3] Log4j2 Test" />
     <MESSAGE value="[PART 2.3] 목록 조회" />
     <MESSAGE value="[PART 2.3] 등록 구현" />
@@ -1025,7 +1038,9 @@
     <MESSAGE value="[PART4-3] 스프링 MVC 범용적인 예외처리" />
     <MESSAGE value="[PART4.4] Todo Insert Test" />
     <MESSAGE value="[PART 4.4] TodoService Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PART 4.4] TodoService Test" />
+    <MESSAGE value="[PART 4.4] PostMapping 설정" />
+    <MESSAGE value="[PART 4.4] Encoding 설정" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PART 4.4] Encoding 설정" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
