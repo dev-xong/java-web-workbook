@@ -60,8 +60,8 @@ public class TodoController {
 
     }
 
-    @GetMapping("/read")
-    public void read(long tno, Model model){
+    @GetMapping({"/read", "/modify"})
+    public void read(long tno, Model model) {
         TodoDTO todoDTO = todoService.getOne(tno);
         log.info(todoDTO);
 
