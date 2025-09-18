@@ -89,9 +89,20 @@
                 </div>
               </div>
             </form>
-
-
           </div>
+
+          <script>
+              const formObj = document.querySelector("form")
+
+              document.querySelector(".btn-danger").addEventListener("click", function (e) {
+                e.preventDefault()
+                e.stopPropagation()
+                formObj.action = "/todo/remove"
+                formObj.method = "post"
+
+                formObj.submit()
+              }, false)
+          </script>
 
         </div>
       </div>
