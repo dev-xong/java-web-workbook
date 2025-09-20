@@ -9,16 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57f47e98-e2f9-4cc0-bd68-1726d71e353f" name="Changes" comment="[PART4-4] 등록 수정 중">
-      <change afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/controller/formatter/CheckboxFormatter.java" afterDir="false" />
+    <list default="true" id="57f47e98-e2f9-4cc0-bd68-1726d71e353f" name="Changes" comment="[PART4-4] 등록/수정/삭제 구현">
+      <change afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/dto/PageRequestDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/dto/PageResponseDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/controller/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/controller/TodoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/mapper/TodoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/mapper/TodoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/service/TodoService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/service/TodoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/service/TodoServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springex/src/main/resources/mappers/TodoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/resources/mappers/TodoMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springex/src/main/webapp/WEB-INF/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/webapp/WEB-INF/servlet-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springex/src/main/webapp/WEB-INF/views/todo/modify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/webapp/WEB-INF/views/todo/modify.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springex/src/test/java/org/zerock/springex/mapper/TodoMapperTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/test/java/org/zerock/springex/mapper/TodoMapperTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -767,7 +764,7 @@
       <workItem from="1755866045644" duration="4491000" />
       <workItem from="1756885729717" duration="3254000" />
       <workItem from="1758374221632" duration="118000" />
-      <workItem from="1758374973986" duration="2383000" />
+      <workItem from="1758374973986" duration="4967000" />
     </task>
     <task id="LOCAL-00001" summary="[PART 2.3] Log4j2">
       <option name="closed" value="true" />
@@ -1025,7 +1022,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758204172069</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="[PART4-4] 등록/수정/삭제 구현">
+      <option name="closed" value="true" />
+      <created>1758377580698</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1758377580698</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1059,7 +1064,6 @@
       <path value="$PROJECT_DIR$/w1" />
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="[PART 3.1] sesstion 확인" />
     <MESSAGE value="[PART 3.1] Login로직 sesstion 확인" />
     <MESSAGE value="[PART 3.1] Login Check 구현" />
     <MESSAGE value="[PART 3.1] UTF8 Filter 구현" />
@@ -1084,7 +1088,8 @@
     <MESSAGE value="[PART 4.4] Todo 목록 기능 개발" />
     <MESSAGE value="[PART 4.4] Todo 조회 기능 개발" />
     <MESSAGE value="[PART4-4] 등록 수정 중" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PART4-4] 등록 수정 중" />
+    <MESSAGE value="[PART4-4] 등록/수정/삭제 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PART4-4] 등록/수정/삭제 구현" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1094,9 +1099,14 @@
           <line>9</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/dto/PageResponseDTO.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/springex/src/test/java/org/zerock/springex/mapper/TodoMapperTests.java</url>
-          <line>23</line>
+          <line>24</line>
           <properties class="org.zerock.springex.mapper.TodoMapperTests" method="testGetTime">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
