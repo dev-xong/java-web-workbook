@@ -47,12 +47,10 @@ public class TodoController {
         if(bindingResult.hasErrors()){
             log.info("has errors..............");
             redirectAttributes.addFlashAttribute("errors", bindingResult.getAllErrors());
-
             return "redirect:/todo/register";
-
         }
 
-        log.info(todoDTO);
+        log.info("todoDTO" + todoDTO);
 
         todoService.register(todoDTO);
 
@@ -77,6 +75,25 @@ public class TodoController {
         todoService.remove(tno);
 
         return "redirect:/todo/list";
+    }
+
+    @PostMapping("/modify")
+    public String modify(@Valid TodoDTO todoDTO,
+                         BindingResult bindingResult,
+                         RedirectAttributes redirectAttributes){
+
+        if(bindingResult.hasErrors()){
+            log.info("has errors................");
+            redirectAttributes.addFlashAttribute("errors", bindingResult.getAllErrors());
+            redirectAttributes.addAttribute("tno", todoDTO.getTno());
+            return "redirect:/todo/modify";
+        }
+        log.info("todoDTO" + todoDTO);
+
+        todoService.modify(todoDTO);
+
+        return "redirect:/todo/list";
+
     }
 
 }

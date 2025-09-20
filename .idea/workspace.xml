@@ -9,13 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57f47e98-e2f9-4cc0-bd68-1726d71e353f" name="Changes" comment="[PART 4.4] Todo 조회 기능 개발">
+    <list default="true" id="57f47e98-e2f9-4cc0-bd68-1726d71e353f" name="Changes" comment="[PART4-4] 등록 수정 중">
+      <change afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/controller/formatter/CheckboxFormatter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/controller/TodoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/controller/TodoController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/mapper/TodoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/mapper/TodoMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/service/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/service/TodoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/service/TodoServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/service/TodoServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springex/src/main/resources/mappers/TodoMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/resources/mappers/TodoMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springex/src/main/webapp/WEB-INF/servlet-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/webapp/WEB-INF/servlet-context.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springex/src/main/webapp/WEB-INF/views/todo/modify.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/springex/src/main/webapp/WEB-INF/views/todo/modify.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,8 +72,8 @@
         <option value="Enum" />
         <option value="spring-beans.schema" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -87,7 +89,7 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/dev-xong/java-web-workbook.git&quot;,
-    &quot;accountId&quot;: &quot;01c7fad1-9288-4a08-b087-ffa421bf0c61&quot;
+    &quot;accountId&quot;: &quot;4d74d606-13af-4562-91a9-18fa31c1f28e&quot;
   }
 }</component>
   <component name="LogFilters">
@@ -701,8 +703,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.27812.49" />
-        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.27812.49" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
       </set>
     </attachedChunks>
   </component>
@@ -764,6 +766,8 @@
       <workItem from="1755610445203" duration="4243000" />
       <workItem from="1755866045644" duration="4491000" />
       <workItem from="1756885729717" duration="3254000" />
+      <workItem from="1758374221632" duration="118000" />
+      <workItem from="1758374973986" duration="2383000" />
     </task>
     <task id="LOCAL-00001" summary="[PART 2.3] Log4j2">
       <option name="closed" value="true" />
@@ -1013,7 +1017,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756888683489</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="[PART4-4] 등록 수정 중">
+      <option name="closed" value="true" />
+      <created>1758204172069</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1758204172069</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1047,7 +1059,6 @@
       <path value="$PROJECT_DIR$/w1" />
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="[PART 3.1] W2" />
     <MESSAGE value="[PART 3.1] sesstion 확인" />
     <MESSAGE value="[PART 3.1] Login로직 sesstion 확인" />
     <MESSAGE value="[PART 3.1] Login Check 구현" />
@@ -1072,7 +1083,8 @@
     <MESSAGE value="[PART 4.4] @Valid 서버사이드 검증 진행중" />
     <MESSAGE value="[PART 4.4] Todo 목록 기능 개발" />
     <MESSAGE value="[PART 4.4] Todo 조회 기능 개발" />
-    <option name="LAST_COMMIT_MESSAGE" value="[PART 4.4] Todo 조회 기능 개발" />
+    <MESSAGE value="[PART4-4] 등록 수정 중" />
+    <option name="LAST_COMMIT_MESSAGE" value="[PART4-4] 등록 수정 중" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1082,11 +1094,6 @@
           <line>9</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/controller/TodoController.java</url>
-          <line>31</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/springex/src/test/java/org/zerock/springex/mapper/TodoMapperTests.java</url>
           <line>23</line>
@@ -1095,15 +1102,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/springex/src/main/java/org/zerock/springex/controller/TodoController.java</url>
-          <line>27</line>
-          <properties class="org.zerock.springex.controller.TodoController" method="list">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
